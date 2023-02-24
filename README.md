@@ -8,6 +8,9 @@ To use this model, you will need to pull the container using singularity. First,
 1. Pull the container to your machine using `singularity pull docker://uvarc/rhessys:leb3t`
 2. Run the container using singularity run `docker://uvarc/rhessys:leb3t`
 
+## Cloning this github repository
+Now, you will want to install the contents of this github repository, such that it can be accessed within the container. Do this using the command `git@github.com:baiottoe/BBGC_Muso_I.git`
+
 ## Start Jupyter Notebook session
 On local machine: `jupyter notebook`
  
